@@ -59,7 +59,7 @@ On the destroy_session.php page do the following:
 On the destroy_all_session.php page do the following:
 
 - Ensure that your page starts with a session_start().
-- Write PHP code to destroy the entire user session using session_destory().
+- Write PHP code to destroy the entire user session using session_destroy().
 - At the bottom of the page place 3 links:
   - A link to the create_session.php page
   - A link to the read_session.php page
@@ -71,9 +71,9 @@ On the destroy_all_session.php page do the following:
 
 ## Grading Rubic
 
-| Item | Full Marks | Partial Marks | No Marks |
-|:--|:--|:--|:--|
-|create_session.php| 25 | 13 | 0 |
-|read_session.php| 25 | 13 | 0 |
-|destroy_session.php| 25 | 13 | 0 |
-|destroy_all_session.php| 25 | 13 | 0 |
+| Item                    | Full Marks | Partial Marks | No Marks |
+| :---------------------- | :--------- | :------------ | :------- |
+| create_session.php      | 25         | 13            | 0        |
+| read_session.php        | 25         | 13            | 0        |
+| destroy_session.php     | 25         | 13            | 0        |
+| destroy_all_session.php | 25         | 13            | 0        |
